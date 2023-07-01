@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+body{
+    background-color: whitesmoke;
+}
+.container{
+    background-color: whitesmoke;
+    height: 90vh;
+    width: 98vw;
+    display: flex;
+    column-gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Nunito";
+    color: #F2AA4C;
+}
+
+.firsttable{
+    background-color: #101820;
+    height: 60vh;
+    width: 20vw;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    
+    
+}
+
+h2{
+    text-align: center;
+}
+
+span{
+    font-size: 2rem;
+}
+
+p{
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+ul{
+    list-style: none;
+    text-align: start;
+    font-weight: 200;
+    
+    
+}
+
+ul li:before {
+    content: '✓ ';
+    font-weight: 900;
+}
+
+li{
+    margin-top: 2rem;
+    
+}
+
+.secondtable{
+    background-color: #101820;
+    height: 60vh;
+    width: 20vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+
+.thirdtable{
+    background-color: #101820;
+    height: 60vh;
+    width: 20vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+.firsttable:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    height: 61vh;
+    transition: ease-in-out 0.2s;
+}
+
+.secondtable:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    height: 61vh;
+    transition: ease-in-out 0.2s;
+}
+
+.thirdtable:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    height: 61vh;
+    transition: ease-in-out 0.2s;
+}
+
+
